@@ -181,7 +181,10 @@ class ProductDeailssc extends StatelessWidget {
                 child: Text(
                   "Add to Cart",
                   style: GoogleFonts.acme(color: appwhitecolor, fontSize: 20),
-                ))
+                )),
+            SizedBox(
+              height: MyApp.height * .02,
+            ),
           ],
         ),
       ),
