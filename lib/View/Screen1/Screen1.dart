@@ -48,7 +48,7 @@ class Screen1 extends StatelessWidget {
                 Positioned(
                   bottom: 0,
                   child: SizedBox(
-                    height: 200,
+                    height: MyApp.height * .35,
                     width: MyApp.width,
                     child: Column(
                       children: [
@@ -115,7 +115,10 @@ class Screen1 extends StatelessWidget {
                               "Get Started",
                               style: GoogleFonts.acme(
                                   color: appwhitecolor, fontSize: 20),
-                            ))
+                            )),
+                        SizedBox(
+                          height: MyApp.height * .02,
+                        ),
                       ],
                     ),
                   ),
